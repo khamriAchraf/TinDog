@@ -2,13 +2,21 @@ body {
     font-family: 'Montserrat';
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
+}
+
 #title {
     background-color: #ff4c68;
     color: white;
 }
 
-h1 {
-    font-family: 'Montserrat';
+
+
+
+/* Headings */
+
+.big-heading {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -103,7 +111,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 3rem;
     line-height: 1.5;
@@ -145,6 +152,10 @@ h2 {
     text-align: center;
     background-color: #ff4c68;
     color: white;
+}
+
+#cta button {
+    margin: 5% 3% 3% 0%;
 }
 
 #footer {
